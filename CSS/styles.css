@@ -39,6 +39,10 @@
     padding: 20px;
   }
 
+  .navItem:hover {
+    background: #ffc5b2;
+  }
+
 
 /* Intro */
   .grid-container {
@@ -56,6 +60,7 @@
     grid-area: text;
     margin: auto 0;
   }
+
 
   h1 {
     font-size: 3em;
@@ -172,7 +177,6 @@
     width: 100%;
     margin: 0 auto;
   }
-
 
   /* Media Queries */
   @media only screen and (max-width: 2000px) {
